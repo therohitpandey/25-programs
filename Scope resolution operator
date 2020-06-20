@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+
+namespace n1 
+{
+    int x = 100;
+}
+
+namespace n2 
+{
+    double x = 200;
+}
+
+int main() 
+{
+  
+    cout << "n1 value : " << n1::x << endl;
+	
+	
+   
+    cout << "n2 value : " << n2::x << endl;
+
+	
+    return 0;
+}
