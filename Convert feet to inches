@@ -1,0 +1,26 @@
+#include <iostream>
+#include<conio.h>
+#include<stdlib.h>
+
+using namespace std;
+
+int main()
+{
+  
+   int f, i = 0;
+
+   cout << "Simple C++ Program : Convert Feet to Inches\n";
+
+ 
+   cout << "\nEnter Limit : ";
+   cin>>f;
+
+  
+   i = f * 12;
+
+
+   cout << "\n\nTotal Inches : " << i;
+
+   getch();
+   return (0);
+}
